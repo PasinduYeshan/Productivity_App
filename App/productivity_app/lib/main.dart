@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
+import 'UI/Pages/splashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,35 +22,6 @@ class MyApp extends StatelessWidget {
         '/HomeScreen': (BuildContext context) => new SecondScreen(),
       },
     );
-  }
-}
-
-class SplachScreen extends StatefulWidget {
-  @override
-  _SplachScreenState createState() => _SplachScreenState();
-}
-
-class _SplachScreenState extends State<SplachScreen> {
-  startTime() async {
-    var _duration = new Duration(seconds: 2);
-    return new Timer(_duration, navigationPage);
-  }
-
-  void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/HomeScreen');
-  }
-
-  @override
-  void initState() {
-    super.initState();
-    startTime();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        color: Colors.white,
-        child: FlutterLogo(size: MediaQuery.of(context).size.height));
   }
 }
 
