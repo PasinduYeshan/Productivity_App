@@ -1,0 +1,19 @@
+Productivity_App
+
+	Requirements
+		Need to insert Exercise or Tasks
+			Target -> eg :- Number of reps 
+							That should be able to increase like how many reps so far in that date
+		
+		Save in phone or firebase (Learn)
+		
+		Calender view daily, weekly, monthly
+		
+		Monthly report or something
+		
+		Continuous streaks (Additional
+		
+	
+	Design
+		
+	
